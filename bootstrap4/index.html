@@ -11,13 +11,52 @@
     
     <!-- My own CSS -->
     <link rel="stylesheet" href="styles.css">
+    <title>canvasss</title>
     
   </head>
-<!body Starts from here>
-
+ <!--body Starts from here-->
+ <!--my fixed nav  bar at the top-->
     <body>
+        <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#startupNavbar" >
+            &#9776;
+            </button>
+            <a class="navbar-brand" href="#"><h2>canvasss</h2></a>
+            <div class="collapse navbar-toggleable-xs" id="startupNavbar">
+                <ul class="nav navbar-nav pull-sm-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shortcut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Explore</a>
+                    </li>
+                </ul>
 
-      <!inserted cover for my website>
+            </div>
+        </nav>
+
+
+
+
+      <!--inserted cover for my website-->
 
         <section id="cover">
             <div id="cover-caption">
@@ -46,47 +85,16 @@
             </div>
         </section>
 
-     <!--this block is for the nav bar-->
-     <div class="navv">
-        <nav class="navbar navbar-dark bg-inverse navbar-full" id="nav-main">
-            <a class="navbar-brand" href="#">CANVASSS</a>
-            <ul class="nav navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shortcut</a>
-                </li>
-            </ul>
-            <form class="form-inline pull-xs-right">
-                <input class="form-control" type="text" placeholder="Search this site...">
-                <button class="btn btn-success-outline" type="submit">Search</button>
-            </form>
-        </nav>
-       </div 
-
+  
+        <!--this is for the three columns using cards-->
    
         <section id="what-we-do">
+            <br>
                  <div class="section-content">
                      <div class="container">
                          <h2>What we do</h2>
                          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium commodi non quod mollitia animi, totam quia labore ex est ut delectus consectetur explicabo eveniet maiores, cumque aut repudiandae. Natus!</p>
-                     
+                         <br>
                          <div class="row">
                              <div class="col-sm-12">
                                  <div class="card-group">
@@ -137,6 +145,7 @@
 
          <!-- this block of code is for coursel-->
         <section id="carousel">
+            <br>
                 <div id="carousel-home" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
@@ -178,12 +187,65 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <br>
             </section>
+
+        <!--this block is for the video section that I added-->
+         <section id="feature-one">
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="feature-content">
+                        <div class="col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=L3ymBk6Vb04" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-1">
+                            <h4>Watch this video</h4>
+                            <h2>Witness the excellence of Canvass in this video</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quia aliquam, error doloribus?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, excepturi. Officiis corporis facilis ducimus assumenda modi, tenetur, dolorum quis similique, qui, ad dignissimos maiores hic. Explicabo har</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </section>
+      <!--this is for the iphone I added-->
+        <section id="feature-two" class="feature-dark">
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="feature-content">
+                        <div class="col-lg-6 feature-caption">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h6>Incredible Partners</h6>
+                            <h2>We have recently parterned with APPLE</h2>
+                            <p class="lead">Got an I Phone ??? We can help you.You will get world class services from us.We will try our best to help you out.We will never disaapoint you.</p>
+                            <a href="" role="button" class="btn btn-secondary-outline btn-lg">HELP</a>
+                        </div>
+                        <div class="col-lg-6 text-sm-center hidden-md-down">
+                           
+                            <!-- screenshot: http://www.staggeringbeauty.com/ -->
+                            <img src="img/iphone-1.png" alt="iphone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
 
 
        <!-- this block is for two column and the second column with three rows -->
 
         <section id="what-we-do">
+            <br>
+            <br>
                  <div class="section-content">
                      <div class="container">
                          
@@ -233,10 +295,12 @@
                          </div>
                      </div>
                  </div>
+                 <br>
             </section>
 
      <!-- tis is for my footer-->
         <footer id="footer-main">
+            <br>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-3">

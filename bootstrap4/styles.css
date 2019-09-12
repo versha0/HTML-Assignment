@@ -32,3 +32,8 @@ section-content {
     font-size: 0.8rem;
     padding: 2.5rem 0;
 }
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+
